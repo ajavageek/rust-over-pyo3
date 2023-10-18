@@ -9,4 +9,5 @@ name = "rust_over_pyo3"
 crate-type = ["cdylib"]
 
 [dependencies]
-pyo3 = "0.20.0"
+pyo3 = { version = "0.20.0" , features = ["num-complex"]}
+num-complex = "0.4.4"
